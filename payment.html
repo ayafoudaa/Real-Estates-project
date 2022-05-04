@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title> Logo</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-2">
+        <a class="navbar-brand pl-5 text-white" href="#"><b>Fouda</b>groups</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center ml-5 navbar_menu " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link mr-2 text-white" href="Home.html">Home </a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link mr-2 text-white active" href="payment.html">Payment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-2 text-white" href="About.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-2 text-white" href="contact.html">Contact us</a>
+                </li>
+
+            </ul>
+            <ul class="navbar_user ">
+                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+
+                <li class="checkout">
+                    <a href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 mt-5 p-3">
+
+                <h4 class="pr-2" style="display: inline;"> <i class="fas fa-check-circle text-success mr-2"></i>Shipping
+                </h4>
+                <h4 class="pr-2" style="display: inline;"> <i class="fas fa-check-circle text-success mr-2"></i>Checkout
+                </h4>
+                <h4 class="pr-2" style="display: inline;"> <i
+                        class="fas fa-ramp-loading text-success mr-2"></i>Confirmation
+                </h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-5">
+                <div class="method">
+                    <h2>Choose a payment method</h2>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/visa.png' alt='' class="visa">
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/mastercard.png' alt=''
+                        class="mastercard">
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/paypal.png' alt='' class="paypal">
+                </div> <!-- .method -->
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputCredit-number"><b>Credit card number</b></label>
+                        <input type="text" class="form-control" id="exampleInputECredit-number"
+                            placeholder="Enter card number" required>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputCard-name"><b>Card holder name</b></label>
+                        <input type="email" class="form-control" id="exampleInputCard-name"
+                            placeholder="Enter your name in card" required>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputExpiration_date"><b>Expiration date</b></label>
+                        <select class="form-control" style="width: 100px; display: inline;">
+                            <option>Month</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                        </select>
+                        <select class="form-control" style="width: 100px; display: inline;">
+                            <option>Year</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputSecurity"><b>Security</b></label>
+                        <input type="password" class="form-control" id="exampleInputSecurity" placeholder="Security"
+                            required>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark mt-2 mb-2" style="width: 100%;"> Checkout</button>
+                </form>
+            </div>
+
+            <div class="col-md-4" style="margin-left: 200px;box-shadow: 0 10px 30px 0 rgb(13 12 13 / 20%); ">
+                <div class=" text-center">
+                    <img src="img/istockphoto-1320119936-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <table class="table table-bordered table-striped table-hover text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Total cost</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>#5652</td>
+                                <td>1,000,000</td>
+                                <td>1</td>
+                                <td>$30</td>
+                            </tr>
+                            <img src="img/oooo.jpg" height="400px" Width="300px">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- start footer-->
+    <section class="footer p-lg-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-widget mb-4">
+                        <h2 class="heading-2"> <b>logo</b> </h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                        </p>
+                        <ul class="footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="animate fadeInUp ftco-animated"><a href="#"><span
+                                        class="icon-twitter"></span></a></li>
+                            <li class="animate fadeInUp animated"><a href="#"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="animate fadeInUp ftco-animated"><a href="#"><span
+                                        class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget mb-4 ml-md-5">
+                        <h2 class="heading-2">Menu</h2>
+                        <ul class="list-group" style="font-size: 15px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        letter-spacing: 0.1rem;">
+                            <li><a href="#" class="py-2 d-block text-white">Shop</a></li>
+                            <li><a href="#" class="py-2 d-block text-white">About</a></li>
+                            <li><a href="#" class="py-2 d-block text-white">Payment</a></li>
+                            <li><a href="#" class="py-2 d-block text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget mb-4">
+                        <h2 class="heading-2">Help</h2>
+                        <div class="d-flex">
+                            <ul class=" list-unstyled mr-l-5 pr-l-3 mr-4">
+                                <li><a href="#" class="py-2 d-block text-white">Shipping Information</a></li>
+                                <li><a href="#" class="py-2 d-block text-white">Returns &amp; Exchange</a></li>
+                                <li><a href="#" class="py-2 d-block text-white">Terms &amp; Conditions</a></li>
+                                <li><a href="#" class="py-2 d-block text-white">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget mb-4">
+                        <h2 class="heading-2">Have a Questions?</h2>
+                        <div class="mb-3">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                    <span class="text "> New cairo, Egypt</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span class="text ">01008795571</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span class="text">adventurers@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md text-center">
+                <p>
+                    Copyright ©2022 All rights reserved
+
+                </p>
+            </div>
+            <ul class="col-md-12 text-center">
+
+                <a href=""><i class="fab fa-facebook text-muted"></i></a>
+                <a href=""><i class="fab fa-twitter text-muted"></i></a>
+                <a href=""><i class="fab fa-instagram text-muted"></i></a>
+            </ul>
+        </div>
+    </section>
+    <!-- end footer-->
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/all.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
